@@ -117,6 +117,8 @@ a{
 
 
 .imagem-fundo{
+    margin-top: 5%;
+    height: 100px;
     width: 100%;
     margin-bottom: 5%;
 }
@@ -167,3 +169,12 @@ footer {
     text-align: center;
     color: gold;
   }
+
+.color-gold{
+    color:gold;
+}
+
+.text-container h4{
+    margin-top: 3%;
+    color:red;
+}
