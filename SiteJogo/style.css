@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html{
+    position: relative;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+#barra-inicial {
+    background-color: #2b2b2b;
+    color: gold;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.cabecalho{
+    background-color:#333;
+    height: 10%;
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.cabecalho ul li {
+    margin: 0.5% 1rem;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.cabecalho ul li a:hover {
+    background: rgb(236, 213, 82);
+    border-radius: 5px;
+}
+
+
+.container {
+    position: relative;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+.image-container {
+    position: relative;
+    width: 100%; /* Ajustar o tamanho conforme necessário */
+    height: 640px; /* Ajustar o tamanho conforme necessário */
+  }
+  
+#imagem {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem preencher todo o container */
+}
+  
+#texto {
+    position: absolute;
+    top: 65%;
+    left: 27%;
+    font-family: 'Times New Roman', Times, serif;
+    transform: translate(-50%, -50%);
+    color: white; /* Cor do texto */
+    font-size: 70px;
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+}
+
+.text-container{
+    position: relative;
+    font-size: 19px;
+    text-align: justify;
+    margin: 0 20%;
+    margin-top: 5%;
+}
+
+.Exemplos{
+    color: red;
+    margin-bottom: 2%;
+}
+
+.text-container h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.text-container h3{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+a{
+    
+    color: gold;
+}
+
+
+.imagem-fundo{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.text-container ul li{
+    padding-left: 0.5%;
+}
+
+.text-container h2{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pirata {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    min-height: 10vh;
+    max-height: 25vh;
+}
+
+#crustacio{
+    position: absolute;
+    right:30%;
+    bottom: 0;
+    min-height: 8vh;
+    max-height: 20vh;
+}
+
+
+
+#bandeira{
+    margin-left: 30%;
+
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+    margin-top: 5%;
+  }
+  
+  footer p {
+    text-align: center;
+    color: gold;
+  }
